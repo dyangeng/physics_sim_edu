@@ -1,5 +1,5 @@
 import os
-from synthnova_assets import update
+from src.synthnova_assets import update
 
 def get_synthnova_assets_directory() -> str:
     """Retrieves the SynthNova assets directory path.

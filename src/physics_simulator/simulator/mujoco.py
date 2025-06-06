@@ -45,6 +45,11 @@ class MujocoSimulator(BaseSim):
         Args:
             physics_simulator_config: Configuration object containing all simulator settings
         """
+        import os
+        if "MUJOCO_GL" not in os.environ:
+            os.environ["MUJOCO_GL"] = "egl"
+        if "EGL_DEVICE_ID" not in os.environ:
+                       os.environ["EGL_DEVICE_ID"] = "0"   # choose your GPU index
         from mujoco import viewer
 
         super().__init__(physics_simulator_config)

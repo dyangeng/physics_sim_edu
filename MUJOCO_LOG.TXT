@@ -1,0 +1,6 @@
+Thu Jun  5 16:52:05 2025
+WARNING: Nan, Inf or huge value in QACC at DOF 13. The simulation is unstable. Time = 0.6350.
+
+Thu Jun  5 16:55:48 2025
+ERROR: Could not allocate memory
+

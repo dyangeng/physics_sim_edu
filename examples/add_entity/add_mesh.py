@@ -71,7 +71,7 @@ def main():
             .joinpath("1")
             .joinpath("model")
             .joinpath("mjcf")
-            .joinpath("convex_decomposition.xml"),
+            #.joinpath("convex_decomposition.xml"),
         position=[0.55, 0, 0],
         orientation=[0, 0, 0, 1],
         scale=[1.0, 1.0, 1.0]

@@ -1,6 +1,6 @@
 import pytest
 from pydantic import ValidationError
-from src.synthnova_config.cloud.cloud_stream import CloudStreamingConfig
+from synthnova_config.cloud.cloud_stream import CloudStreamingConfig
 
 
 def test_default_config():
